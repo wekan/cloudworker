@@ -33,7 +33,6 @@
   "homepage": "https://github.com/dollarshaveclub/cloudworker#readme",
   "dependencies": {
     "@dollarshaveclub/node-fetch": "^3.2.0",
-    "web-streams-polyfill": "^2.0.3",
     "arraybuffer-equal": "^1.0.4",
     "atob": "^2.1.2",
     "btoa": "^1.2.1",
@@ -41,16 +40,17 @@
     "http-cache-semantics": "^4.0.3",
     "lru-cache": "^5.1.1",
     "moment": "^2.24.0",
-    "node-webcrypto-ossl": "^1.0.48"
+    "node-webcrypto-ossl": "^1.0.48",
+    "web-streams-polyfill": "^2.0.3"
   },
   "devDependencies": {
     "@types/node": "^10.14.10",
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "eslint": "^5.16.0",
     "eslint-config-dollarshaveclub": "^3.1.0",
     "eslint-plugin-jest": "^21.27.2",
-    "jest": "^23.6.0",
-    "jest-fetch-mock": "^1.7.5",
+    "jest": "^26.6.3",
+    "jest-fetch-mock": "^3.0.3",
     "node-mocks-http": "^1.7.6",
     "tslint": "^5.18.0",
     "tslint-config-prettier": "^1.17.0",
